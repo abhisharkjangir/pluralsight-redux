@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class AboutPage extends React.Component{
   render(){
@@ -7,7 +7,7 @@ class AboutPage extends React.Component{
         <h1>About </h1>
         <p> This application uses Redux, React, React Router and a veriety of other helpful libraries.</p>
       </div>
-    )
+    );
   }
 }
 
