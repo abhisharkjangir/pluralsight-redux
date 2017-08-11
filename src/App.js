@@ -8,11 +8,11 @@ class App extends React.Component {
         <Header />
         {this.props.children}
       </div>
-    )
+    );
   }
 }
 
-App.PropTypes = {
+App.propTypes = {
   children : PropTypes.object.isRequired
 };
 
