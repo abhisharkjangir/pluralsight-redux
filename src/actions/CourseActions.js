@@ -38,10 +38,10 @@ export function saveCourse(course) {
     return courseApi.saveCourse(course).then(savedCoutse => {
       course.id
       ? dispatch(updateCourseSuccess(savedCoutse))
-      : dispatch(createCourseSuccess(savedCoutse))
+      : dispatch(createCourseSuccess(savedCoutse));
     }).catch(error => {
       dispatch(ajaxCallError());
       throw(error);
     });
-  }
+  };
 }

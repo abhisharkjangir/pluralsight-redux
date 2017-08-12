@@ -28,7 +28,7 @@ TextInput.propTypes = {
   onChange :PropTypes.func.isRequired,
   placeholder:PropTypes.string,
   value:PropTypes.string,
-  errors:PropTypes.object
-}
+  error:PropTypes.object
+};
 
 export default TextInput;

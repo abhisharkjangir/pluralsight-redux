@@ -1,7 +1,6 @@
 import React,{PropTypes} from 'react';
 
 const SelectInput = ({name,label,onChange,defaultOption,placeholder,value,error,options}) => {
-  console.log(options);
   return(
     <div className = "form-group">
     <label htmlFor = {name}>{label}</label>
@@ -33,6 +32,6 @@ SelectInput.propTypes = {
   value:PropTypes.string,
   error:PropTypes.object,
   options:PropTypes.arrayOf(PropTypes.object)
-}
+};
 
 export default SelectInput;

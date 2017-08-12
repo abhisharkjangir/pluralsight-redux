@@ -53,6 +53,6 @@ CourseForm.propTypes = {
   onChange:React.PropTypes.func.isRequired,
   saving:React.PropTypes.bool,
   errors:React.PropTypes.object
-}
+};
 
 export default CourseForm;

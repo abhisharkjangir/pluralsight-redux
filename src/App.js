@@ -21,7 +21,7 @@ App.propTypes = {
 function mapStateToProps(state,ownProps) {
   return {
     loading : state.ajaxCallsInProgress > 0
-  }
+  };
 }
 
 export default connect(mapStateToProps)(App);

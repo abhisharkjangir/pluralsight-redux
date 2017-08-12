@@ -10,13 +10,13 @@ const Header = ({loading}) => {
       <Link to="/courses" activeClassName="active">Courses</Link>
       {" | "}
       <Link to="/about" activeClassName="active">About</Link>
-      {loading && <LoadingDots interval={100} dots={10} />}
+      {loading && <LoadingDots />}
     </nav>
   );
 };
 
 Header.propTypes = {
   loading : PropTypes.bool.isRequired
-}
+};
 
 export default Header;

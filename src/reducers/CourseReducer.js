@@ -4,7 +4,7 @@ import intialState from './InitialState';
 export default function courseReducer(state = intialState.courses, action) {
   switch (action.type) {
     case types.LOAD_COURSES_SUCCESS:
-      return action.courses
+      return action.courses;
     case types.CREATE_COURSE_SUCCESS:
       return [
         ...state,
